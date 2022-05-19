@@ -1,0 +1,45 @@
+.customers .customerName {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    max-width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.customers {
+    border: 1px solid gainsboro;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 40px;
+    border-bottom: none;
+}
+
+.customers .customerName .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers .customerName #deleteIcon {
+    margin-top: 15px;
+}
+
+.customers .customerName .initials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.customers .customerName .initials #initialName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: rgb(206, 206, 249);
+    line-height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 100%;
+}
